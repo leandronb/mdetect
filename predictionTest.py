@@ -3,13 +3,13 @@ import tensorflow.contrib.learn as tf
 
 
 # Read data sets
-with open("DataSet/Train/X_train.txt") as x_train:
+with open("HAPT/Train/X_train.txt") as x_train:
     x = list(x_train)
-with open("DataSet/Train/y_train.txt") as y_train:
+with open("HAPT/Train/y_train.txt") as y_train:
     y = list(y_train)
-with open("DataSet/Test/X_test.txt") as x_test:
+with open("HAPT/Test/X_test.txt") as x_test:
     x_test = list(x_test)
-with open("DataSet/Test/y_test.txt") as y_test:
+with open("HAPT/Test/y_test.txt") as y_test:
     y_test = list(y_test)
 
 
