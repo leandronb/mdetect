@@ -11,6 +11,7 @@ while 1:
     try:
         message, address = s.recvfrom(8192)
         print (message)
+	print (address)
     except (KeyboardInterrupt, SystemExit):
         raise
     except:
